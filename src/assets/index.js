@@ -23,6 +23,8 @@ import threejs from "./tech/threejs.svg";
 import sqlserver from "./tech/sqlserver.png";
 import net from "./tech/net.png";
 import python from "./tech/python.png";
+import mui from "./tech/mui.png";
+import bootstrap from "./tech/bootstrap.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -72,5 +74,7 @@ export {
   socialdev,
   sqlserver,
   net,
-  python
+  python,
+  mui,
+  bootstrap
 };

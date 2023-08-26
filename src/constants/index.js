@@ -29,7 +29,9 @@ import {
   indracompany,
   sqlserver,
   net,
-  python
+  python,
+  mui,
+  bootstrap
 } from "../assets";
 export const navLinks = [
   {
@@ -109,6 +111,14 @@ const technologies = [
   {
     name: "git",
     icon: git,
+  },
+  {
+    name: "bootstrap",
+    icon: bootstrap,
+  },
+  {
+    name: "material ui",
+    icon: mui,
   },
   {
     name: "figma",

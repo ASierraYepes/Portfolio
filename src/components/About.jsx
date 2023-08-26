@@ -48,8 +48,8 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
         I am a Web and Mobile developer with more than two years of experience in languages 
-        such as Python, React Native, .Net(C#), MERN (Mongo, Express, React, Node), SQLServer 
-        Database (Stored Procedures), SQLite and MongoDB and basic knowledge in Angular. 
+        such as Python, React Native, .Net(C#), MERN (Mongo, Express, React, Node), Redux, SQLServer 
+        Database (Stored Procedures), SQLite, MongoDB and basic knowledge in Angular. 
         I learn fast and collaborate closely with clients to create efficient, scalable, 
         and easy-to-use solutions that solve real-world problems. Let's work together to bring 
         your ideas to life!
