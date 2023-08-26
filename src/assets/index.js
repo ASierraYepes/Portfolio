@@ -20,15 +20,22 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import sqlserver from "./tech/sqlserver.png";
+import net from "./tech/net.png";
+import python from "./tech/python.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import canguro from "./company/canguro.png";
+import linkedin from "./company/linkedin.png";
+import indracompany from "./company/indracompany.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import socialdev from "./socialdev.png";
 
 export {
   logo,
@@ -59,4 +66,11 @@ export {
   carrent,
   jobit,
   tripguide,
+  canguro,
+  linkedin,
+  indracompany,
+  socialdev,
+  sqlserver,
+  net,
+  python
 };
