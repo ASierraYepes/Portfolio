@@ -3,7 +3,7 @@ import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { github } from "../assets";
+import { github, see } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -50,8 +50,8 @@ const ProjectCard = ({
               className='green-pink-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
               <img
-                src={github}
-                alt='source code'
+                src={see}
+                alt='see'
                 className='w-1/2 h-1/2 object-contain'
               />
             </div>

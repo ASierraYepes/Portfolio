@@ -31,7 +31,8 @@ import {
   net,
   python,
   mui,
-  bootstrap
+  bootstrap,
+  pokedex
 } from "../assets";
 export const navLinks = [
   {
@@ -120,10 +121,10 @@ const technologies = [
     name: "material ui",
     icon: mui,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
   // {
   //   name: "docker",
   //   icon: docker,
@@ -239,25 +240,30 @@ const projects = [
     demo: "https://social-dev-cau2.onrender.com"
   },
   {
-    name: "Job IT",
+    name: "Pokedex",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "It is a fully responsive web application that simulates a pokedex that allows users to search for their favorite pokemon, see powers, strength, abilities and levels, it was developed in Html, Css and Javascripts consuming rest api.",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "orange-text-gradient",
       },
       {
         name: "restapi",
         color: "green-text-gradient",
       },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: pokedex,
+    source_code_link: "https://github.com/ASierraYepes/Pokedex.git",
+    demo:"https://js-pokedex-virid.vercel.app/"
   },
   {
     name: "Trip Guide",
@@ -279,6 +285,7 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
+    demo:""
   },
 ];
 
